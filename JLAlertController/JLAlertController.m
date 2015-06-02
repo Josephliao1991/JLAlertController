@@ -8,6 +8,16 @@
 
 #import "JLAlertController.h"
 
+@interface JLAlertController ()
+
+{
+    
+    UIView *alertBackView;
+    AlertView *alertView;
+    
+}
+
+@end
 
 @implementation JLAlertController
 
@@ -28,11 +38,19 @@
    
 }
 
+- (void)viewDidLayoutSubviews{
+    
+    [super viewDidLayoutSubviews];
+    
+    alertView.center = self.view.center;
+    
+}
+
 - (void)viewDidAppear:(BOOL)animated{
     
     [super viewDidAppear:animated];
     
-     [self creatLikeStyleJLAlertControllerStyleAlert];
+    [self creatLikeStyleJLAlertControllerStyleAlert];
     
 }
 
@@ -120,17 +138,9 @@
 #pragma mark - Draw the AlertView
 - (void)creatLikeStyleJLAlertControllerStyleAlert{
     
-    UIView *alertBackView = [[UIView alloc] initWithFrame:self.view.frame];
-    alertBackView.backgroundColor = [UIColor grayColor];
-    alertBackView.alpha = 0;
+    [self addAlertBachgroundView];
     
-    [self.view addSubview:alertBackView];
-    
-    AlertView *alertView = [AlertView creatALertViewWithController:self];
-
-    alertView.alpha = 0.9;
-    
-    [self.view addSubview:alertView];
+    [self addAlertView];
     
     [UIView animateWithDuration:0.3
                      animations:^{
@@ -144,6 +154,62 @@
 
 }
 
+- (void)addAlertBachgroundView{
+    
+    alertBackView = [[UIView alloc] initWithFrame:self.view.frame];
+    alertBackView.backgroundColor = [UIColor grayColor];
+    alertBackView.alpha = 0;
+    alertBackView.center = self.view.center;
+    
+    [self.view addSubview:alertBackView];
+
+    [alertBackView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    
+    NSLayoutConstraint *constraintTopMargin = [NSLayoutConstraint constraintWithItem:alertBackView
+                                                                         attribute:NSLayoutAttributeTopMargin
+                                                                         relatedBy:NSLayoutRelationEqual
+                                                                            toItem:self.view
+                                                                         attribute:NSLayoutAttributeTopMargin
+                                                                        multiplier:1.0
+                                                                          constant:0];
+    
+    NSLayoutConstraint *constraintBottomMargin = [NSLayoutConstraint constraintWithItem:alertBackView
+                                                                         attribute:NSLayoutAttributeBottomMargin
+                                                                         relatedBy:NSLayoutRelationEqual
+                                                                            toItem:self.view
+                                                                         attribute:NSLayoutAttributeBottomMargin
+                                                                        multiplier:1.0
+                                                                          constant:0];
+    
+    NSLayoutConstraint *constraintRightMargin  = [NSLayoutConstraint constraintWithItem:alertBackView
+                                                                              attribute:NSLayoutAttributeRightMargin
+                                                                              relatedBy:NSLayoutRelationEqual
+                                                                                 toItem:self.view
+                                                                              attribute:NSLayoutAttributeRightMargin
+                                                                             multiplier:1.0
+                                                                               constant:16];
+    
+    NSLayoutConstraint *constraintLeftMargin = [NSLayoutConstraint constraintWithItem:alertBackView
+                                                                              attribute:NSLayoutAttributeLeftMargin
+                                                                              relatedBy:NSLayoutRelationEqual
+                                                                                 toItem:self.view
+                                                                              attribute:NSLayoutAttributeLeftMargin
+                                                                             multiplier:1.0
+                                                                               constant:-16];
+    
+    [self.view addConstraints:@[constraintTopMargin,constraintBottomMargin,constraintRightMargin,constraintLeftMargin]];
+    
+}
+
+- (void)addAlertView{
+    
+    alertView = [AlertView creatALertViewWithController:self];
+    
+    alertView.alpha = 0.9;
+    
+    [self.view addSubview:alertView];
+    
+}
 
 - (void)callJLAlertActionBlockWithIndex:(NSNotification*)notification{
     
