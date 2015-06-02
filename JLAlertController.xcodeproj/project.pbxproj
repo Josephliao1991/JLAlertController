@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F011B181B1BF4AE00086B68 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F011B171B1BF4AE00086B68 /* AlertView.m */; };
+		3F8A1CD31B184A7300273BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CD21B184A7300273BA2 /* main.m */; };
+		3F8A1CD61B184A7300273BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CD51B184A7300273BA2 /* AppDelegate.m */; };
+		3F8A1CD91B184A7300273BA2 /* JLAlertController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CD71B184A7300273BA2 /* JLAlertController.xcdatamodeld */; };
+		3F8A1CDC1B184A7300273BA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CDB1B184A7300273BA2 /* ViewController.m */; };
+		3F8A1CDF1B184A7300273BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A1CDD1B184A7300273BA2 /* Main.storyboard */; };
+		3F8A1CE11B184A7300273BA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A1CE01B184A7300273BA2 /* Images.xcassets */; };
+		3F8A1CE41B184A7300273BA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A1CE21B184A7300273BA2 /* LaunchScreen.xib */; };
+		3F8A1CF01B184A7300273BA2 /* JLAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CEF1B184A7300273BA2 /* JLAlertControllerTests.m */; };
+		3F8A1CFC1B184A9A00273BA2 /* JLAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CFB1B184A9A00273BA2 /* JLAlertController.m */; };
+		3F8A1D051B184B0100273BA2 /* JLAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1D021B184B0100273BA2 /* JLAlertAction.m */; };
+		3F8A1D061B184B0100273BA2 /* AlertActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1D041B184B0100273BA2 /* AlertActionView.m */; };
+		3F8A1D0C1B18576700273BA2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1D0B1B18576700273BA2 /* SecondViewController.m */; };
+		3F98D4431B1D740D00CB89D2 /* JLDynamicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D4421B1D740D00CB89D2 /* JLDynamicLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8A1CEA1B184A7300273BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8A1CC51B184A7300273BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A1CCC1B184A7300273BA2;
+			remoteInfo = JLAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F011B161B1BF4AE00086B68 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		3F011B171B1BF4AE00086B68 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		3F8A1CCD1B184A7300273BA2 /* JLAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A1CD11B184A7300273BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8A1CD21B184A7300273BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8A1CD41B184A7300273BA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8A1CD51B184A7300273BA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8A1CD81B184A7300273BA2 /* JLAlertController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JLAlertController.xcdatamodel; sourceTree = "<group>"; };
+		3F8A1CDA1B184A7300273BA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F8A1CDB1B184A7300273BA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F8A1CDE1B184A7300273BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8A1CE01B184A7300273BA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F8A1CE31B184A7300273BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F8A1CE91B184A7300273BA2 /* JLAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A1CEE1B184A7300273BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8A1CEF1B184A7300273BA2 /* JLAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAlertControllerTests.m; sourceTree = "<group>"; };
+		3F8A1CFA1B184A9A00273BA2 /* JLAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertController.h; sourceTree = "<group>"; };
+		3F8A1CFB1B184A9A00273BA2 /* JLAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAlertController.m; sourceTree = "<group>"; };
+		3F8A1D001B184AF200273BA2 /* JLAlertControllerConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertControllerConstant.h; sourceTree = "<group>"; };
+		3F8A1D011B184B0100273BA2 /* JLAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertAction.h; sourceTree = "<group>"; };
+		3F8A1D021B184B0100273BA2 /* JLAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAlertAction.m; sourceTree = "<group>"; };
+		3F8A1D031B184B0100273BA2 /* AlertActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertActionView.h; sourceTree = "<group>"; };
+		3F8A1D041B184B0100273BA2 /* AlertActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertActionView.m; sourceTree = "<group>"; };
+		3F8A1D0A1B18576700273BA2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3F8A1D0B1B18576700273BA2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3F98D4411B1D740D00CB89D2 /* JLDynamicLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDynamicLabel.h; sourceTree = "<group>"; };
+		3F98D4421B1D740D00CB89D2 /* JLDynamicLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDynamicLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8A1CCA1B184A7300273BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A1CE61B184A7300273BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8A1CC41B184A7300273BA2 = {
+			isa = PBXGroup;
+			children = (
+				3F8A1CCF1B184A7300273BA2 /* JLAlertController */,
+				3F8A1CEC1B184A7300273BA2 /* JLAlertControllerTests */,
+				3F8A1CCE1B184A7300273BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8A1CCE1B184A7300273BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A1CCD1B184A7300273BA2 /* JLAlertController.app */,
+				3F8A1CE91B184A7300273BA2 /* JLAlertControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8A1CCF1B184A7300273BA2 /* JLAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A1CD41B184A7300273BA2 /* AppDelegate.h */,
+				3F8A1CD51B184A7300273BA2 /* AppDelegate.m */,
+				3F8A1CDA1B184A7300273BA2 /* ViewController.h */,
+				3F8A1CDB1B184A7300273BA2 /* ViewController.m */,
+				3F8A1D0A1B18576700273BA2 /* SecondViewController.h */,
+				3F8A1D0B1B18576700273BA2 /* SecondViewController.m */,
+				3F8A1CF91B184A8000273BA2 /* JLAlertController */,
+				3F8A1CDD1B184A7300273BA2 /* Main.storyboard */,
+				3F8A1CE01B184A7300273BA2 /* Images.xcassets */,
+				3F8A1CE21B184A7300273BA2 /* LaunchScreen.xib */,
+				3F8A1CD71B184A7300273BA2 /* JLAlertController.xcdatamodeld */,
+				3F8A1CD01B184A7300273BA2 /* Supporting Files */,
+			);
+			path = JLAlertController;
+			sourceTree = "<group>";
+		};
+		3F8A1CD01B184A7300273BA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A1CD11B184A7300273BA2 /* Info.plist */,
+				3F8A1CD21B184A7300273BA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8A1CEC1B184A7300273BA2 /* JLAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A1CEF1B184A7300273BA2 /* JLAlertControllerTests.m */,
+				3F8A1CED1B184A7300273BA2 /* Supporting Files */,
+			);
+			path = JLAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		3F8A1CED1B184A7300273BA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A1CEE1B184A7300273BA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8A1CF91B184A8000273BA2 /* JLAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A1CFA1B184A9A00273BA2 /* JLAlertController.h */,
+				3F8A1CFB1B184A9A00273BA2 /* JLAlertController.m */,
+				3F8A1D011B184B0100273BA2 /* JLAlertAction.h */,
+				3F8A1D021B184B0100273BA2 /* JLAlertAction.m */,
+				3F011B161B1BF4AE00086B68 /* AlertView.h */,
+				3F011B171B1BF4AE00086B68 /* AlertView.m */,
+				3F8A1D031B184B0100273BA2 /* AlertActionView.h */,
+				3F8A1D041B184B0100273BA2 /* AlertActionView.m */,
+				3F98D4411B1D740D00CB89D2 /* JLDynamicLabel.h */,
+				3F98D4421B1D740D00CB89D2 /* JLDynamicLabel.m */,
+				3F8A1D001B184AF200273BA2 /* JLAlertControllerConstant.h */,
+			);
+			name = JLAlertController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8A1CCC1B184A7300273BA2 /* JLAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A1CF31B184A7300273BA2 /* Build configuration list for PBXNativeTarget "JLAlertController" */;
+			buildPhases = (
+				3F8A1CC91B184A7300273BA2 /* Sources */,
+				3F8A1CCA1B184A7300273BA2 /* Frameworks */,
+				3F8A1CCB1B184A7300273BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLAlertController;
+			productName = JLAlertController;
+			productReference = 3F8A1CCD1B184A7300273BA2 /* JLAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8A1CE81B184A7300273BA2 /* JLAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A1CF61B184A7300273BA2 /* Build configuration list for PBXNativeTarget "JLAlertControllerTests" */;
+			buildPhases = (
+				3F8A1CE51B184A7300273BA2 /* Sources */,
+				3F8A1CE61B184A7300273BA2 /* Frameworks */,
+				3F8A1CE71B184A7300273BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8A1CEB1B184A7300273BA2 /* PBXTargetDependency */,
+			);
+			name = JLAlertControllerTests;
+			productName = JLAlertControllerTests;
+			productReference = 3F8A1CE91B184A7300273BA2 /* JLAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8A1CC51B184A7300273BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "TSUNG-LUN LIAO";
+				TargetAttributes = {
+					3F8A1CCC1B184A7300273BA2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3F8A1CE81B184A7300273BA2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3F8A1CCC1B184A7300273BA2;
+					};
+				};
+			};
+			buildConfigurationList = 3F8A1CC81B184A7300273BA2 /* Build configuration list for PBXProject "JLAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8A1CC41B184A7300273BA2;
+			productRefGroup = 3F8A1CCE1B184A7300273BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8A1CCC1B184A7300273BA2 /* JLAlertController */,
+				3F8A1CE81B184A7300273BA2 /* JLAlertControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8A1CCB1B184A7300273BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A1CDF1B184A7300273BA2 /* Main.storyboard in Resources */,
+				3F8A1CE41B184A7300273BA2 /* LaunchScreen.xib in Resources */,
+				3F8A1CE11B184A7300273BA2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A1CE71B184A7300273BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8A1CC91B184A7300273BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A1D0C1B18576700273BA2 /* SecondViewController.m in Sources */,
+				3F8A1D051B184B0100273BA2 /* JLAlertAction.m in Sources */,
+				3F8A1CFC1B184A9A00273BA2 /* JLAlertController.m in Sources */,
+				3F8A1CD91B184A7300273BA2 /* JLAlertController.xcdatamodeld in Sources */,
+				3F98D4431B1D740D00CB89D2 /* JLDynamicLabel.m in Sources */,
+				3F8A1CD61B184A7300273BA2 /* AppDelegate.m in Sources */,
+				3F8A1CDC1B184A7300273BA2 /* ViewController.m in Sources */,
+				3F011B181B1BF4AE00086B68 /* AlertView.m in Sources */,
+				3F8A1D061B184B0100273BA2 /* AlertActionView.m in Sources */,
+				3F8A1CD31B184A7300273BA2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A1CE51B184A7300273BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A1CF01B184A7300273BA2 /* JLAlertControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8A1CEB1B184A7300273BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A1CCC1B184A7300273BA2 /* JLAlertController */;
+			targetProxy = 3F8A1CEA1B184A7300273BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8A1CDD1B184A7300273BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A1CDE1B184A7300273BA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8A1CE21B184A7300273BA2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A1CE31B184A7300273BA2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8A1CF11B184A7300273BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8A1CF21B184A7300273BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8A1CF41B184A7300273BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F8A1CF51B184A7300273BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F8A1CF71B184A7300273BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JLAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLAlertController.app/JLAlertController";
+			};
+			name = Debug;
+		};
+		3F8A1CF81B184A7300273BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JLAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLAlertController.app/JLAlertController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8A1CC81B184A7300273BA2 /* Build configuration list for PBXProject "JLAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A1CF11B184A7300273BA2 /* Debug */,
+				3F8A1CF21B184A7300273BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A1CF31B184A7300273BA2 /* Build configuration list for PBXNativeTarget "JLAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A1CF41B184A7300273BA2 /* Debug */,
+				3F8A1CF51B184A7300273BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A1CF61B184A7300273BA2 /* Build configuration list for PBXNativeTarget "JLAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A1CF71B184A7300273BA2 /* Debug */,
+				3F8A1CF81B184A7300273BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F8A1CD71B184A7300273BA2 /* JLAlertController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F8A1CD81B184A7300273BA2 /* JLAlertController.xcdatamodel */,
+			);
+			currentVersion = 3F8A1CD81B184A7300273BA2 /* JLAlertController.xcdatamodel */;
+			path = JLAlertController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F8A1CC51B184A7300273BA2 /* Project object */;
+}
