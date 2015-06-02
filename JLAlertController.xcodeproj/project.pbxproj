@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F011B181B1BF4AE00086B68 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F011B171B1BF4AE00086B68 /* AlertView.m */; };
 		3F8A1CD31B184A7300273BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CD21B184A7300273BA2 /* main.m */; };
 		3F8A1CD61B184A7300273BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CD51B184A7300273BA2 /* AppDelegate.m */; };
 		3F8A1CD91B184A7300273BA2 /* JLAlertController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CD71B184A7300273BA2 /* JLAlertController.xcdatamodeld */; };
@@ -16,11 +15,12 @@
 		3F8A1CE11B184A7300273BA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A1CE01B184A7300273BA2 /* Images.xcassets */; };
 		3F8A1CE41B184A7300273BA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A1CE21B184A7300273BA2 /* LaunchScreen.xib */; };
 		3F8A1CF01B184A7300273BA2 /* JLAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CEF1B184A7300273BA2 /* JLAlertControllerTests.m */; };
-		3F8A1CFC1B184A9A00273BA2 /* JLAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1CFB1B184A9A00273BA2 /* JLAlertController.m */; };
-		3F8A1D051B184B0100273BA2 /* JLAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1D021B184B0100273BA2 /* JLAlertAction.m */; };
-		3F8A1D061B184B0100273BA2 /* AlertActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1D041B184B0100273BA2 /* AlertActionView.m */; };
 		3F8A1D0C1B18576700273BA2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1D0B1B18576700273BA2 /* SecondViewController.m */; };
-		3F98D4431B1D740D00CB89D2 /* JLDynamicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D4421B1D740D00CB89D2 /* JLDynamicLabel.m */; };
+		3F98D4621B1DA19900CB89D2 /* JLAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D4581B1DA19900CB89D2 /* JLAlertController.m */; };
+		3F98D4631B1DA19900CB89D2 /* JLAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D45A1B1DA19900CB89D2 /* JLAlertAction.m */; };
+		3F98D4641B1DA19900CB89D2 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D45C1B1DA19900CB89D2 /* AlertView.m */; };
+		3F98D4651B1DA19900CB89D2 /* AlertActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D45E1B1DA19900CB89D2 /* AlertActionView.m */; };
+		3F98D4661B1DA19900CB89D2 /* JLDynamicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D4601B1DA19900CB89D2 /* JLDynamicLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F011B161B1BF4AE00086B68 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
-		3F011B171B1BF4AE00086B68 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 		3F8A1CCD1B184A7300273BA2 /* JLAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8A1CD11B184A7300273BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8A1CD21B184A7300273BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,17 +48,19 @@
 		3F8A1CE91B184A7300273BA2 /* JLAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8A1CEE1B184A7300273BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8A1CEF1B184A7300273BA2 /* JLAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAlertControllerTests.m; sourceTree = "<group>"; };
-		3F8A1CFA1B184A9A00273BA2 /* JLAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertController.h; sourceTree = "<group>"; };
-		3F8A1CFB1B184A9A00273BA2 /* JLAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAlertController.m; sourceTree = "<group>"; };
-		3F8A1D001B184AF200273BA2 /* JLAlertControllerConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertControllerConstant.h; sourceTree = "<group>"; };
-		3F8A1D011B184B0100273BA2 /* JLAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertAction.h; sourceTree = "<group>"; };
-		3F8A1D021B184B0100273BA2 /* JLAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAlertAction.m; sourceTree = "<group>"; };
-		3F8A1D031B184B0100273BA2 /* AlertActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertActionView.h; sourceTree = "<group>"; };
-		3F8A1D041B184B0100273BA2 /* AlertActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertActionView.m; sourceTree = "<group>"; };
 		3F8A1D0A1B18576700273BA2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3F8A1D0B1B18576700273BA2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3F98D4411B1D740D00CB89D2 /* JLDynamicLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDynamicLabel.h; sourceTree = "<group>"; };
-		3F98D4421B1D740D00CB89D2 /* JLDynamicLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDynamicLabel.m; sourceTree = "<group>"; };
+		3F98D4571B1DA19900CB89D2 /* JLAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertController.h; sourceTree = "<group>"; };
+		3F98D4581B1DA19900CB89D2 /* JLAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAlertController.m; sourceTree = "<group>"; };
+		3F98D4591B1DA19900CB89D2 /* JLAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertAction.h; sourceTree = "<group>"; };
+		3F98D45A1B1DA19900CB89D2 /* JLAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAlertAction.m; sourceTree = "<group>"; };
+		3F98D45B1B1DA19900CB89D2 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		3F98D45C1B1DA19900CB89D2 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		3F98D45D1B1DA19900CB89D2 /* AlertActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertActionView.h; sourceTree = "<group>"; };
+		3F98D45E1B1DA19900CB89D2 /* AlertActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertActionView.m; sourceTree = "<group>"; };
+		3F98D45F1B1DA19900CB89D2 /* JLDynamicLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDynamicLabel.h; sourceTree = "<group>"; };
+		3F98D4601B1DA19900CB89D2 /* JLDynamicLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDynamicLabel.m; sourceTree = "<group>"; };
+		3F98D4611B1DA19900CB89D2 /* JLAlertControllerConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAlertControllerConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,17 +147,17 @@
 		3F8A1CF91B184A8000273BA2 /* JLAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				3F8A1CFA1B184A9A00273BA2 /* JLAlertController.h */,
-				3F8A1CFB1B184A9A00273BA2 /* JLAlertController.m */,
-				3F8A1D011B184B0100273BA2 /* JLAlertAction.h */,
-				3F8A1D021B184B0100273BA2 /* JLAlertAction.m */,
-				3F011B161B1BF4AE00086B68 /* AlertView.h */,
-				3F011B171B1BF4AE00086B68 /* AlertView.m */,
-				3F8A1D031B184B0100273BA2 /* AlertActionView.h */,
-				3F8A1D041B184B0100273BA2 /* AlertActionView.m */,
-				3F98D4411B1D740D00CB89D2 /* JLDynamicLabel.h */,
-				3F98D4421B1D740D00CB89D2 /* JLDynamicLabel.m */,
-				3F8A1D001B184AF200273BA2 /* JLAlertControllerConstant.h */,
+				3F98D4571B1DA19900CB89D2 /* JLAlertController.h */,
+				3F98D4581B1DA19900CB89D2 /* JLAlertController.m */,
+				3F98D4591B1DA19900CB89D2 /* JLAlertAction.h */,
+				3F98D45A1B1DA19900CB89D2 /* JLAlertAction.m */,
+				3F98D45B1B1DA19900CB89D2 /* AlertView.h */,
+				3F98D45C1B1DA19900CB89D2 /* AlertView.m */,
+				3F98D45D1B1DA19900CB89D2 /* AlertActionView.h */,
+				3F98D45E1B1DA19900CB89D2 /* AlertActionView.m */,
+				3F98D45F1B1DA19900CB89D2 /* JLDynamicLabel.h */,
+				3F98D4601B1DA19900CB89D2 /* JLDynamicLabel.m */,
+				3F98D4611B1DA19900CB89D2 /* JLAlertControllerConstant.h */,
 			);
 			name = JLAlertController;
 			sourceTree = "<group>";
@@ -262,15 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F98D4621B1DA19900CB89D2 /* JLAlertController.m in Sources */,
+				3F98D4641B1DA19900CB89D2 /* AlertView.m in Sources */,
 				3F8A1D0C1B18576700273BA2 /* SecondViewController.m in Sources */,
-				3F8A1D051B184B0100273BA2 /* JLAlertAction.m in Sources */,
-				3F8A1CFC1B184A9A00273BA2 /* JLAlertController.m in Sources */,
+				3F98D4651B1DA19900CB89D2 /* AlertActionView.m in Sources */,
+				3F98D4661B1DA19900CB89D2 /* JLDynamicLabel.m in Sources */,
 				3F8A1CD91B184A7300273BA2 /* JLAlertController.xcdatamodeld in Sources */,
-				3F98D4431B1D740D00CB89D2 /* JLDynamicLabel.m in Sources */,
 				3F8A1CD61B184A7300273BA2 /* AppDelegate.m in Sources */,
+				3F98D4631B1DA19900CB89D2 /* JLAlertAction.m in Sources */,
 				3F8A1CDC1B184A7300273BA2 /* ViewController.m in Sources */,
-				3F011B181B1BF4AE00086B68 /* AlertView.m in Sources */,
-				3F8A1D061B184B0100273BA2 /* AlertActionView.m in Sources */,
 				3F8A1CD31B184A7300273BA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

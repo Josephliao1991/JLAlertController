@@ -80,4 +80,73 @@
     
 }
 
+//- (void)setTitleViewWithTitle:(NSString*)title withMessage:(NSString*)message{
+//    
+//    UIView *titleView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kAlertViewWidth, kAlertViewHight)];
+//    
+//    titleView.backgroundColor = [UIColor whiteColor];
+//    titleView.layer.cornerRadius = 5;
+//    
+//    JLDynamicLabel *titlelabel   = [JLDynamicLabel creatLabelWithString:title withSize:23];
+//    
+//    JLDynamicLabel *messagelabel = [JLDynamicLabel creatLabelWithString:message withSize:10];
+//    messagelabel.textColor = [UIColor lightGrayColor];
+//    
+//    [titleView addSubview:titlelabel];
+//    [titleView addSubview:messagelabel];
+//    
+//    [titlelabel     setTranslatesAutoresizingMaskIntoConstraints:NO];
+//    [messagelabel   setTranslatesAutoresizingMaskIntoConstraints:NO];
+//    
+//    //title Label Constraint
+//    NSLayoutConstraint *titleLabelConstraintTopMargin = [NSLayoutConstraint constraintWithItem:titlelabel
+//                                                                                    attribute:NSLayoutAttributeTopMargin
+//                                                                                    relatedBy:NSLayoutRelationEqual
+//                                                                                       toItem:titleView
+//                                                                                    attribute:NSLayoutAttributeTopMargin
+//                                                                                   multiplier:1.0
+//                                                                                     constant:0];
+//    
+//    NSLayoutConstraint *titleLabelConstraintCenterX = [NSLayoutConstraint constraintWithItem:titlelabel
+//                                                                                     attribute:NSLayoutAttributeCenterX
+//                                                                                     relatedBy:NSLayoutRelationEqual
+//                                                                                        toItem:titleView
+//                                                                                     attribute:NSLayoutAttributeCenterX
+//                                                                                    multiplier:1.0
+//                                                                                      constant:0];
+//    
+//    [titleView addConstraints:@[titleLabelConstraintCenterX,titleLabelConstraintTopMargin]];
+//    
+//    
+//    [titleView      setTranslatesAutoresizingMaskIntoConstraints:NO];
+//
+//    [self addSubview:titleView];
+//    //title View Constraint
+//    NSLayoutConstraint *titleViewConstraintTopMargin = [NSLayoutConstraint constraintWithItem:titleView
+//                                                                                    attribute:NSLayoutAttributeTopMargin
+//                                                                                    relatedBy:NSLayoutRelationEqual
+//                                                                                       toItem:self
+//                                                                                    attribute:NSLayoutAttributeTopMargin
+//                                                                                   multiplier:1.0
+//                                                                                     constant:0];
+//    
+//    NSLayoutConstraint *titleViewConstraintBottomMargin = [NSLayoutConstraint constraintWithItem:titleView
+//                                                                                    attribute:NSLayoutAttributeBottomMargin
+//                                                                                    relatedBy:NSLayoutRelationEqual
+//                                                                                       toItem:self
+//                                                                                    attribute:NSLayoutAttributeBottomMargin
+//                                                                                   multiplier:1.0
+//                                                                                     constant:0];
+//    
+//    
+//    
+//    
+//    [self addConstraints:@[titleViewConstraintTopMargin,titleViewConstraintBottomMargin]];
+//    
+////    titlelabel.center   = CGPointMake(titleView.center.x, titlelabel.frame.size.height);
+////    messagelabel.center = CGPointMake(titleView.center.x, titleView.center.y+20);
+//    
+//    
+//}
+
 @end

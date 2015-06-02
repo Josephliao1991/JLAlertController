@@ -47,11 +47,9 @@ typedef void(^Handler)(JLAlertAction *action);
 
 - (void)blockback{
     
-    if (!handlerBlock) {
-        return;
+    if (handlerBlock) {
+        handlerBlock(self);
     }
-    
-    handlerBlock(self);
     
     [[NSNotificationCenter defaultCenter] postNotificationName:RELEASEALERTVIEW object:nil];
     
