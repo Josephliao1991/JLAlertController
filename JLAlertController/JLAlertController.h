@@ -33,6 +33,7 @@ typedef NS_ENUM(NSInteger, JLAlertControllerStyle) {
 - (void)addActionWithActionS:(NSArray*)actions;
 
 
+
 - (void)show;
 
 

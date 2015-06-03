@@ -211,6 +211,8 @@
     
 }
 
+
+#pragma mark - Release Method
 - (void)callJLAlertActionBlockWithIndex:(NSNotification*)notification{
     
     NSInteger index = [notification.userInfo[@"index"] integerValue];
