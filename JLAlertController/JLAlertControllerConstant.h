@@ -14,7 +14,6 @@
 #import "AlertView.h"
 #import "AlertActionView.h"
 #import "JLDynamicLabel.h"
-#import "JLAlertControllweModel.h"
 
 #define JLALERTACTIONVIEWBETOUCH   @"JLAlertActionViewBeTouch"
 #define RELEASEALERTVIEW           @"ReleaseAlertView"

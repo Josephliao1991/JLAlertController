@@ -12,8 +12,9 @@
 
 {
     
-    UIView *alertBackView;
-    AlertView *alertView;
+    UIView          *alertBackView;
+    AlertView       *alertView;
+    UIImageView     *capulaView;
     
 }
 
@@ -113,6 +114,12 @@
     
 }
 
+- (void)setAlertControllerImageWithImageName:(NSString*)imageName{
+    
+    _alertImageName = imageName;
+    
+}
+
 - (void)show{
     
     if ([_actions count] == 0) {
@@ -198,6 +205,19 @@
                                                                                constant:-16];
     
     [self.view addConstraints:@[constraintTopMargin,constraintBottomMargin,constraintRightMargin,constraintLeftMargin]];
+    
+    
+    if (_alertImageName) {
+        
+        UIImage *capulaImage = [UIImage imageNamed:_alertImageName];
+        capulaView = [[UIImageView alloc]initWithImage:capulaImage];
+        capulaView.center = CGPointMake(self.view.center.x, self.view.center.y-capulaView.frame.size.height/2);
+        
+        [self.view addSubview:capulaView];
+        
+    }
+    
+    
     
 }
 

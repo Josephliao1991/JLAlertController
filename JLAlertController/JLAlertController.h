@@ -20,11 +20,13 @@ typedef NS_ENUM(NSInteger, JLAlertControllerStyle) {
 @property (nonatomic, strong) NSString *alerttitle;
 @property (nonatomic, strong) NSString *message;
 @property (nonatomic, assign) JLAlertControllerStyle style;
+@property (nonatomic, strong) NSString *alertImageName;
 
 + (JLAlertController*)alertControllerWithTitle:(NSString *)title withMessage:(NSString *)message withPreferredStyle:(JLAlertControllerStyle)preferredStyle;
 
 + (JLAlertController*)alertControllerWithTitle:(NSString *)title withMessage:(NSString *)message withPreferredStyle:(JLAlertControllerStyle)preferredStyle withActionS:(NSArray*)actions;
 
+- (void)setAlertControllerImageWithImageName:(NSString*)imageName;
 
 #pragma mark - JLAlertAction Part
 @property (nonatomic, strong) NSMutableArray *actions;
